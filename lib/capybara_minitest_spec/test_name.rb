@@ -40,7 +40,7 @@ module CapybaraMiniTestSpec
     end
 
     def failure_message_method
-      :failure_message_for_should
+      :failure_message
     end
 
   end
@@ -56,7 +56,7 @@ module CapybaraMiniTestSpec
     end
 
     def failure_message_method
-      :failure_message_for_should_not
+      :failure_message_when_negated
     end
 
     def match_method
